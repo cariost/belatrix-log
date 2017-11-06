@@ -1,0 +1,8 @@
+DROP TABLE IF EXISTS Log_Values;
+
+CREATE TABLE log(
+  id INT PRIMARY KEY AUTO_INCREMENT NOT NULL ,
+  message VARCHAR (255) ,
+  type CHAR (1)
+
+);
